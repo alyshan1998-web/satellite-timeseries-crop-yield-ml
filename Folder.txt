@@ -1,0 +1,19 @@
+satellite-timeseries-crop-yield-ml/
+├── data/
+│   ├── parcels/.gitkeep
+│   └── rasters/.gitkeep
+├── src/
+│   ├── __init__.py
+│   ├── extraction/
+│   │   ├── __init__.py
+│   │   └── temporal_stack.py
+│   ├── algorithms/
+│   │   ├── __init__.py
+│   │   ├── phenology_fit.py
+│   │   └── spatial_cv.py
+│   └── pipeline/
+│       ├── __init__.py
+│       └── train_yield.py
+├── .gitignore
+├── requirements.txt
+└── README.md
